@@ -1,0 +1,105 @@
+
+### Create Card - 민달팽이 정민
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 1,
+  "grade": "C",
+  "name": "민달팽이 정민",
+  "imageUrl": "",
+  "description": "문정민, 그는 프랭키 그 자체입니다. 그의 얼굴을 보고 절대 속으면 안됩니다. 끔찍하게도 그의 얼굴과 달리 그의 몸은 민달팽이와 같은 구조로 되어있습니다."
+}
+
+### Create Card - 이별 영준
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 2,
+  "grade": "B",
+  "name": "이별 영준",
+  "imageUrl": "",
+  "description": "만약 저런 표정으로 누워있는 그를 발견한다면 그를 절대로 건드리지 않는 것이 좋을겁니다. 그는 안좋은 일을 겪었거든요…"
+}
+
+### Create Card - 마스터이 경수
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 3,
+  "grade": "A",
+  "name": "마스터이 경수",
+  "imageUrl": "",
+  "description": "그는 잠자리일까요? 사람일까요? 그의 정체를 아는 사람은 없을겁니다… 아마도요.."
+}
+
+### Create Card - 앙큼한 진성
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 4,
+  "grade": "A",
+  "name": "앙큼한 진성",
+  "imageUrl": "",
+  "description": "오우 그를 보셨나요? 그는 참 상큼발랄한 친구입니다. 그의 이름이요? 황진성입니다. 그는 웹개발자이죠."
+}
+
+### Create Card - 사죄 용진
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 5,
+  "grade": "D",
+  "name": "사죄 용진",
+  "imageUrl": "",
+  "description": "왜 이 사람은 책상 위에 올라가 사죄하고 있을까요? 전 알아요 그는 세미콜론이라는 동아리를 나가서 새 길을 개척하겠다는 포부를 가지고 있다는 것을"
+}
+
+
+### Create Card - 아기 대희
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 6,
+  "grade": "D",
+  "name": "아기 대희",
+  "imageUrl": "",
+  "description": "그는 아기입니다… 아주 큰 아기요… 물론 조금 귀엽긴하네요 하하 그는 말을 할 때 모든 말에 응애 나 아기 대희라는 말을 붙혀서 말합니다."
+}
+
+
+### Create Card - 돌진전사 영준
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+
+{
+  "id": 7,
+  "grade": "S",
+  "name": "돌진전사 영준",
+  "imageUrl": "",
+  "description": "미쳤습니다. 그는 올라프, 광전사 그 자체입니다. 그를 막을 수 있는 것이 있을까요? 선생님? 무서운 친구들? 아니죠 나비입니다."
+}
+
+
+
+### Create Card - 앙큼한 진성
+DELETE http://localhost:8080/api/cards/6
+Content-Type: application/json
+
+
+### PATCH CARD MARK STATUS
+PATCH http://localhost:8080/api/cards/read/{1}
+Content-Type: application/json
+
+
+
+
+### Get all the messages
+GET http://localhost:8080/api/cards
+
+
